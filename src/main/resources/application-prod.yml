@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: 你的线上数据库地址
+    url: jdbc:mysql://120.78.9.222:3306/sky-user-center
     username: sky-user-center
-    password: 你的数据库密码
+    password: zzt
     driver-class-name: com.mysql.cj.jdbc.Driver
