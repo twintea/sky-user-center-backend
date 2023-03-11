@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://120.78.9.222:3306/sky-user-center
+    username: sky-user-center
+    password: zzt
+    driver-class-name: com.mysql.cj.jdbc.Driver
