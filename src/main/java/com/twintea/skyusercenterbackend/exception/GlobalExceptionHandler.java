@@ -1,8 +1,8 @@
-package com.twintea.skyusercenter.exception;
+package com.twintea.skyusercenterbackend.exception;
 
-import com.twintea.skyusercenter.common.BaseResponse;
-import com.twintea.skyusercenter.common.ErrorCode;
-import com.twintea.skyusercenter.common.ResultUtils;
+import com.twintea.skyusercenterbackend.common.BaseResponse;
+import com.twintea.skyusercenterbackend.common.ErrorCode;
+import com.twintea.skyusercenterbackend.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

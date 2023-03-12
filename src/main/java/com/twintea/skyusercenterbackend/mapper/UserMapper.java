@@ -1,6 +1,6 @@
-package com.twintea.skyusercenter.mapper;
+package com.twintea.skyusercenterbackend.mapper;
 
-import com.twintea.skyusercenter.domain.User;
+import com.twintea.skyusercenterbackend.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

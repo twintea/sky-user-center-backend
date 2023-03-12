@@ -4,7 +4,7 @@ server:
     context-path: /api
 spring:
   application:
-    name: sky-user-center
+    name: sky-user-center-backend
   datasource:
     url: jdbc:mysql://localhost:3306/planet_center
     username: root

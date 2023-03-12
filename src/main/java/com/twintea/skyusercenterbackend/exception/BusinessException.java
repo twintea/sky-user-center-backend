@@ -1,6 +1,6 @@
-package com.twintea.skyusercenter.exception;
+package com.twintea.skyusercenterbackend.exception;
 
-import com.twintea.skyusercenter.common.ErrorCode;
+import com.twintea.skyusercenterbackend.common.ErrorCode;
 import lombok.Getter;
 
 /**

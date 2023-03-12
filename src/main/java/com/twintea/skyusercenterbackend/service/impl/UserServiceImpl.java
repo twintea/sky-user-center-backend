@@ -1,16 +1,15 @@
-package com.twintea.skyusercenter.service.impl;
+package com.twintea.skyusercenterbackend.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.twintea.skyusercenter.common.ErrorCode;
-import com.twintea.skyusercenter.domain.User;
-import com.twintea.skyusercenter.exception.BusinessException;
-import com.twintea.skyusercenter.service.UserService;
-import com.twintea.skyusercenter.mapper.UserMapper;
+import com.twintea.skyusercenterbackend.common.ErrorCode;
+import com.twintea.skyusercenterbackend.domain.User;
+import com.twintea.skyusercenterbackend.exception.BusinessException;
+import com.twintea.skyusercenterbackend.service.UserService;
+import com.twintea.skyusercenterbackend.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
@@ -20,8 +19,8 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.twintea.skyusercenter.constant.UserConstant.USER_LOGIN_STATE;
-import static com.twintea.skyusercenter.constant.UserConstant.VALID_STATUS;
+import static com.twintea.skyusercenterbackend.constant.UserConstant.USER_LOGIN_STATE;
+import static com.twintea.skyusercenterbackend.constant.UserConstant.VALID_STATUS;
 
 /**
  * @author Pixar

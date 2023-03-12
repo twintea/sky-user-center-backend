@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter.common;
+package com.twintea.skyusercenterbackend.common;
 
 import lombok.Data;
 

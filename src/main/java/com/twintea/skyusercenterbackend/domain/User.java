@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter.domain;
+package com.twintea.skyusercenterbackend.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
 

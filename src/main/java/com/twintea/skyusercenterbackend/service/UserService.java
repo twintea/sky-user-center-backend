@@ -1,6 +1,6 @@
-package com.twintea.skyusercenter.service;
+package com.twintea.skyusercenterbackend.service;
 
-import com.twintea.skyusercenter.domain.User;
+import com.twintea.skyusercenterbackend.domain.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import javax.servlet.http.HttpServletRequest;

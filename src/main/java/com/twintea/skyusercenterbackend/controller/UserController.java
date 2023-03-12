@@ -1,25 +1,24 @@
-package com.twintea.skyusercenter.controller;
+package com.twintea.skyusercenterbackend.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.twintea.skyusercenter.common.BaseResponse;
-import com.twintea.skyusercenter.common.ErrorCode;
-import com.twintea.skyusercenter.common.ResultUtils;
-import com.twintea.skyusercenter.domain.User;
-import com.twintea.skyusercenter.domain.request.UserLoginRequest;
-import com.twintea.skyusercenter.domain.request.UserRegisterRequest;
-import com.twintea.skyusercenter.exception.BusinessException;
-import com.twintea.skyusercenter.service.UserService;
+import com.twintea.skyusercenterbackend.common.BaseResponse;
+import com.twintea.skyusercenterbackend.common.ErrorCode;
+import com.twintea.skyusercenterbackend.common.ResultUtils;
+import com.twintea.skyusercenterbackend.domain.User;
+import com.twintea.skyusercenterbackend.domain.request.UserLoginRequest;
+import com.twintea.skyusercenterbackend.domain.request.UserRegisterRequest;
+import com.twintea.skyusercenterbackend.exception.BusinessException;
+import com.twintea.skyusercenterbackend.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import static com.twintea.skyusercenter.constant.UserConstant.*;
+import static com.twintea.skyusercenterbackend.constant.UserConstant.*;
 
 @RestController
 @RequestMapping("/user")

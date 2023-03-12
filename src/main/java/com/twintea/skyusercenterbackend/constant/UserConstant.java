@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter.constant;
+package com.twintea.skyusercenterbackend.constant;
 
 /**
  * 用户常量

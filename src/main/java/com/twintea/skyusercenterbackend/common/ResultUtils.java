@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter.common;
+package com.twintea.skyusercenterbackend.common;
 
 /**
  * 返回结果工具类

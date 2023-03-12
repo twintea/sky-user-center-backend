@@ -1,6 +1,6 @@
-package com.twintea.skyusercenter.service;
+package com.twintea.skyusercenterbackend.service;
 
-import com.twintea.skyusercenter.domain.User;
+import com.twintea.skyusercenterbackend.domain.User;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

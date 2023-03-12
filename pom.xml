@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.twintea</groupId>
-    <artifactId>sky-user-center</artifactId>
+    <artifactId>sky-user-center-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sky-user-center</name>
-    <description>sky-user-center</description>
+    <name>sky-user-center-backend</name>
+    <description>sky-user-center-backend</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

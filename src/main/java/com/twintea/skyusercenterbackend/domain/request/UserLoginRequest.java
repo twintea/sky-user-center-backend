@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter.domain.request;
+package com.twintea.skyusercenterbackend.domain.request;
 
 import lombok.Data;
 

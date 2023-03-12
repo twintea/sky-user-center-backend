@@ -1,4 +1,4 @@
-package com.twintea.skyusercenter;
+package com.twintea.skyusercenterbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
