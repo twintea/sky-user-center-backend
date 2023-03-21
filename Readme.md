@@ -6,7 +6,7 @@
 
 >  本项目前后端均使用Docker容器部署
 
-**项目在线访问链接：** http://skyuc.twintea.top
+**项目在线访问链接：** [Sky-User-Center](http://skyuc.twintea.top)
 
 
 
@@ -80,7 +80,7 @@
 ### 部署
 
 详见
-[项目部署和上线](https://blog.twintea.top/2023/03/08/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%92%8C%E4%B8%8A%E7%BA%BF/)
+[项目部署和上线](https://blog.twintea.top/posts/6e6359df.html)
 
 
 - 单机部署
@@ -112,7 +112,7 @@
 
 ### 开发笔记🤔
 
-[Sky-User-Center开发笔记](https://blog.twintea.top/2023/03/08/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/)
+[Sky-User-Center开发笔记](https://blog.twintea.top/posts/8036cfa7.html)
 
 
 
@@ -121,13 +121,13 @@
 (~~看情况，当后续项目用到管理系统再以此为模板更新~~)
 
 1. 功能扩充
-    1. 管理员创建用户、修改用户信息、删除用户
-    2. 上传头像
-    3. 按照更多的条件去查询用户
-    4. 更改权限
+1. 管理员创建用户、修改用户信息、删除用户
+2. 上传头像
+3. 按照更多的条件去查询用户
+4. 更改权限
 2. 修改 Bug
 3. 项目登录改为分布式 session（单点登录 - redis）
 4. 通用性
-    1. set-cookie domain 域名更通用，比如改为 *.xxx.com
-    2. 把用户管理系统 => 用户中心（之后所有的服务都请求这个后端）
+1. set-cookie domain 域名更通用，比如改为 *.xxx.com
+2. 把用户管理系统 => 用户中心（之后所有的服务都请求这个后端）
 5. 后台添加全局请求拦截器（统一去判断用户权限、统一记录请求日志）
